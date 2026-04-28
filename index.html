@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>FI Calculator</h1>
+
+<div class="card">
+
+  <h2>Income & Spending</h2>
+
+  <input id="income" type="number" placeholder="Monthly Income">
+  <input id="spending" type="number" placeholder="Monthly Spending">
+
+  <h3 id="result"></h3>
+
+  <canvas id="mainChart"></canvas>
+
+</div>
+
+<div class="card">
+
+  <h2>Spending Breakdown</h2>
+
+  <input class="cat" placeholder="Groceries">
+  <input class="cat" placeholder="Utilities">
+  <input class="cat" placeholder="Transport">
+  <input class="cat" placeholder="Entertainment">
+  <input class="cat" placeholder="Dining Out">
+  <input class="cat" placeholder="Debt Repayment">
+
+  <canvas id="breakdownChart"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
